@@ -10,6 +10,10 @@ The MSLA project provides a framework for training and evaluating transformer mo
 
 This guide outlines how to use the provided scripts for training, inference, and benchmarking.
 
+## Type of attention matrix
+
+![alt-text](Type of attention matrix.png)
+
 ### 1. Training
 
 The `train.py` script is used for training models. You can train models with different configurations and attention mechanisms.
