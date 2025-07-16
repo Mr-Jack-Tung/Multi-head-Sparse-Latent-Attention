@@ -188,3 +188,5 @@ Number of parameters: 133,886,208
 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
 Generated text: Once upon a time, there was a little girl named Lily. She was very excited. One day, she was very happy. One day, the sun was so excited to the park.
 ```
+
+![alt-text](./Training_Loss_MSLA_256latents_Figure_1.jpg)
