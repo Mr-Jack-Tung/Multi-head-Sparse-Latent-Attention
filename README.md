@@ -12,7 +12,7 @@ This guide outlines how to use the provided scripts for training, inference, and
 
 ## Type of attention matrix
 
-![alt-text]("Type of attention matrix.png")
+![alt-text](Type of attention matrix.jpg)
 
 ### 1. Training
 
