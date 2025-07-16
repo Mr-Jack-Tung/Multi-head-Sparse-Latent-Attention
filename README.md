@@ -2,6 +2,26 @@
 
 This project implements and explores the Multi-head Sparse Latent Attention (MSLA) mechanism, a novel approach to attention in transformer models. MSLA aims to improve efficiency and performance by selectively focusing on relevant parts of the input sequence.
 
+## Background
+
+Attention mechanisms are fundamental to transformer models, enabling them to:
+- Dynamically focus on relevant parts of input sequences
+- Capture long-range dependencies in data
+- Learn contextual relationships between tokens
+
+However, standard attention mechanisms face significant challenges:
+- Quadratic computational complexity (O(n²)) with sequence length
+- High memory requirements for large sequences
+- Inefficient processing of irrelevant tokens
+
+The Multi-head Sparse Latent Attention (MSLA) mechanism addresses these limitations by:
+1. Introducing sparsity to reduce computation on less relevant tokens
+2. Using latent representations to capture essential information efficiently
+3. Maintaining multiple attention heads to preserve model capacity
+4. Reducing memory footprint while preserving performance
+
+This project implements and explores the MSLA mechanism as a novel approach to attention in transformer models. MSLA aims to improve efficiency and performance by selectively focusing on relevant parts of the input sequence.
+
 ## Project Description
 
 The MSLA project provides a framework for training and evaluating transformer models enhanced with sparse attention mechanisms. It includes implementations for training, inference, and benchmarking, allowing for a comprehensive analysis of MSLA's effectiveness compared to traditional attention methods.
